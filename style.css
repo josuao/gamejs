@@ -1,0 +1,6 @@
+body{font-family: Arial, sans-serif;}
+.head{background:#083250; width:100%; display:flex; justify-content: flex-end; padding:7px 0;}
+#rev, #heure{background:#fff; padding:7px; font-size:20px; display:block; margin-right:7px;}
+.mission{background:#8b3030; color:#fff; width:25%; text-align: center; padding:7px;}
+.mission div{background:#968d8d; padding:10px;}
+#message{background:#7b8ca2; position: absolute; left:25%; z-index:500; width:50%; min-height:200px;}
