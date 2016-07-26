@@ -3,4 +3,14 @@ body{font-family: Arial, sans-serif;}
 #rev, #heure{background:#fff; padding:7px; font-size:20px; display:block; margin-right:7px;}
 .mission{background:#8b3030; color:#fff; width:25%; text-align: center; padding:7px;}
 .mission div{background:#968d8d; padding:10px;}
-#message{background:#7b8ca2; position: absolute; left:25%; z-index:500; width:50%; min-height:200px;}
+#exmission{cursor:pointer;}
+#message{background:#7b8ca2; position: absolute; left:25%; top: 25%; z-index:500; width:50%; min-height:200px;}
+#titre{background:#56606c; color:#fff; padding:5px;}
+input[type="button"] {
+    background: rgb(20, 125, 236);
+    border: none;
+    padding: 10px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.22);
+}
+.menubas{ clear:both; background:#083250; min-height:250px; padding:7px;}
+#aptitude{background:#c7c7c7; width:25%; padding: 7px;}
