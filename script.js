@@ -1,5 +1,7 @@
 $(window).load(function() {
 
+$miss = false;	
+	
 //variable du top menu
 $rev = 500;
 $heure = 0;
@@ -25,15 +27,28 @@ $('#message').hide();
 //le clic sur le choix du menu vertical gauche   
 $('#exmission').click(function(){
     $('#message').toggle();
-
-//affichage du message
 });
+	
+//affichage du message
 if($visibilite){
    $('#titre').text($messtitre[0]) ; 
     $('#contenu').html($messtext[0]);
 }
+$('#quit').click(function(){
+    	$('#titre').text("") ; 
+    	$('#contenu').html("");
+		$('#message').hide();
+});
 
 //afficher les caracteristique vaisseau
 	$('#aptitude').html('<p>santé : '+$vaisseau.vie+'</p>'+'<p>capacité : '+$vaisseau.capacite+'</p>'+'<p>cale : '+$vaisseau.cale+'</p>'+'<p>force : '+$vaisseau.force+'</p>');
 	
+
+
+//test svg
+$('#Calque_1').click(function(){
+    $('#message').toggle();
+	$('#titre').text($messtitre[1]) ; 
+    $('#contenu').html($messtext[1]);
 });
+	});
